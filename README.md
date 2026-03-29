@@ -3,7 +3,7 @@ R scripts for the statistical analysis and power calculation of a study on Parki
 
 This repository contains the R code used for the statistical analyses of the dissertation:
 
-"Effects of Parkinson’s Disease Multimodal Complex Treatment (PKB) on gait performance, motor function, and quality of life"
+"Multimodale Evaluation der Parkinson-Komplex-Behandlung: Auswirkungen auf Motorik und Lebensqualität von Patienten mit Parkinson-Krankheit"
 
 ## Contents
 
