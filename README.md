@@ -13,7 +13,7 @@ This repository contains the R code used for the statistical analyses of the dis
 - `04_UPDRS_analysis.R`: UPDRS Dataimport and main analysis
 - `05_PDQ39_analysis.R`: PDQ39 Dataimport and main analysis
 - `06_PKBE_analysis.R`: PKB-E Dataimport and main analysis
-- `07plots_main_results.R`: Visualization of Main Results via Scatterplots and grouped Barchart
+- `07_plots_main_results.R`: Visualization of Main Results via Scatterplots and grouped Barchart
   
 ## Software
 
