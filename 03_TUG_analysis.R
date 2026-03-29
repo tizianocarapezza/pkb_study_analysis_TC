@@ -1,4 +1,4 @@
-#################################################TUG Code mit allen 43##########################################################
+#################################################TUG Code mit n=43##########################################################
 datdir="../data"
 tug_scores = data.frame(tug_pre=NULL, tug_post=NULL)
 
@@ -20,12 +20,10 @@ for(sub in dir(datdir))
 }
 colnames(tug_scores) <- c("tug_pre", "tug_post")
 
-#tug_scores <- tug_scores[-25, ]
-
 tug_scores$diff = tug_scores$tug_pre - tug_scores$tug_post
 
 tug_scores <- tug_scores[-25, ]
-#Zeile 25 rausnehmen wegen dropout
+#Zeile 25 rausnehmen wegen Dropout
 
 mean_tug_pre <- mean(tug_scores$tug_pre)
 sd_tug_pre <- sd(tug_scores$tug_pre)
@@ -33,7 +31,6 @@ mean_tug_post <- mean(tug_scores$tug_post)
 sd_tug_post <- sd(tug_scores$tug_post)
 mean_tug_Diff <- mean(tug_scores$diff)
 sd_tug_Diff <- sd(tug_scores$diff)
-#berechnen der TUG-Daten
 
 MW_tug =c(mean_tug_pre, mean_tug_post, mean_tug_Diff)
 StA_tug=c(sd_tug_pre, sd_tug_post, sd_tug_Diff)
